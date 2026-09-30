@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+     font-family: "Open Sans", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+header {
+   
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;   
+}
+
+nav {
+    display:flex;
+    justify-content: space-between; 
+    max-width: 1200px;
+    padding: 12px 0p;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r {
+    color: #fd6e0a
+}
+
+.common-btn {
+    background-color: #fd6e0a;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    coursor: pointer;
+}
+
+.outline-btn {
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+}
+
+
+ul {
+      display:flex;
+    justify-content: space-between; 
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+/* 
+hero section style */
+.hero-parent-root {
+      background-color: #fff8f3;
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  
+
+}
+hero-left-p-1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-botton: 12px;
+}
+
+          
+.hero-left-btn-parent {
+    margin: 12px;
+
+}
+
+/* about us css */
+.about-parent {
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 80px;
+    text-align: center;
+}
+
+.about-parent p {
+    margin: 10px 0;
+}
+
+.about-parent-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about-parent-box div {
+    background-color: orange;
+    padding: 5px;
+    border-radius: px;
+
+}
